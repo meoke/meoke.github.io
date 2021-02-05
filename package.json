@@ -1,0 +1,36 @@
+{
+  "name": "meoke.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "webpack serve --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meoke/meoke.github.io.git"
+  },
+  "author": "Paulina Dziadkiewicz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meoke/meoke.github.io/issues"
+  },
+  "homepage": "https://github.com/meoke/meoke.github.io#readme",
+  "dependencies": {
+    "autoprefixer": "^10.2.4",
+    "postcss-import": "^14.0.0",
+    "tailwindcss": "^2.0.2"
+  },
+  "devDependencies": {
+    "css-loader": "^5.0.1",
+    "html-webpack-plugin": "^5.0.0",
+    "postcss": "^8.2.4",
+    "postcss-loader": "^5.0.0",
+    "postcss-preset-env": "^6.7.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.20.2",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
